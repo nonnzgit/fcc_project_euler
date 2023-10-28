@@ -23,7 +23,8 @@ function multiplesOf3and5(number) {
     sum += multThreeAndFive[i];
   }
 
+  console.log(sum);
   return sum;
 }
 
-multiplesOf3and5(1000);
+multiplesOf3and5(30);
